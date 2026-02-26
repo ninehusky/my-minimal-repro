@@ -3,5 +3,8 @@ name = "my_minimal_repro"
 version = "0.1.0"
 edition = "2024"
 
+[package.metadata.flux]
+enabled = true
+
 [dependencies]
-flux-rs = { git  = "https://github.com/flux-rs/flux.git" }
+flux-rs = { path = "/Users/acheung/research/projects/flux/lib/flux-rs/" }
